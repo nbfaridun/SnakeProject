@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #44448e;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.InstructionsController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="64.0" prefWidth="169.0" text="README" textFill="WHITE">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="100.0" prefHeight="30.0" prefWidth="570.0" text="| W - UP | D - RIGHT | S - DOWN | A - LEFT |" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="confirm1" layoutX="568.0" layoutY="107.0" mnemonicParsing="false">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </CheckBox>
+      <Label layoutX="16.0" layoutY="170.0" prefHeight="30.0" prefWidth="570.0" text="| By eating a fruit - You increase snake's size |" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="confirm2" layoutX="568.0" layoutY="177.0" mnemonicParsing="false">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </CheckBox>
+      <Label layoutX="14.0" layoutY="239.0" prefHeight="30.0" prefWidth="570.0" text="| Out of the arena? Hitting yourself? - GAME OVER! |" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="confirm3" layoutX="568.0" layoutY="246.0" mnemonicParsing="false">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </CheckBox>
+      <Button fx:id="buttonConfirm" alignment="CENTER" contentDisplay="BOTTOM" defaultButton="true" layoutX="468.0" layoutY="312.0" mnemonicParsing="false" onAction="#switchToSample" prefHeight="55.0" prefWidth="100.0" text="CONFIRM">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+   <cursor>
+      <Cursor fx:constant="CROSSHAIR" />
+   </cursor>
+</AnchorPane>

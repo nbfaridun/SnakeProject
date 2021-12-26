@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#moveSquareKeyPressed" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #28265e;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Button fx:id="startButton" mnemonicParsing="false" onKeyPressed="#moveSquareKeyPressed" onMouseClicked="#start" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #28269e; -fx-cursor: hand; -fx-border-color: #28252e; -fx-border-width: 4;" text="START" textFill="WHITE" AnchorPane.bottomAnchor="500.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font></Button>
+        <Button fx:id="addButton" layoutX="500.0" mnemonicParsing="false" onAction="#addBodyPart" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #105400; -fx-cursor: hand;" text="ADD LEN" textAlignment="CENTER" textFill="WHITE" visible="false" AnchorPane.bottomAnchor="500.0" AnchorPane.leftAnchor="500.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font></Button>
+      <Label fx:id="showMessageLabel" alignment="CENTER" layoutX="202.0" prefHeight="37.0" prefWidth="287.0" style="-fx-alignment: center;" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="regPane" layoutX="120.0" layoutY="200.0" prefHeight="200.0" prefWidth="361.0" style="-fx-background-color: #98261f; -fx-border-color: #ffc200; -fx-border-width: 10;" visible="false">
+         <children>
+            <TextField fx:id="txt_name" layoutX="87.0" layoutY="79.0" prefHeight="40.0" prefWidth="260.0" promptText="Enter Your Nickname" style="-fx-alignment: center;">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <Label layoutX="14.0" layoutY="82.0" text="Name" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="beatenScoreLabel" layoutX="30.0" layoutY="21.0" prefHeight="30.0" prefWidth="347.0" style="-fx-alignment: center;" text="REGISTER YOUR SCORE" textFill="WHITE" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="21.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="goBackButton" layoutX="76.0" layoutY="146.0" mnemonicParsing="false" onMouseClicked="#cancel" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #28262e; -fx-cursor: hand;" text="Cancel" textFill="#fcfcfc" AnchorPane.leftAnchor="60.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="goBackButton1" layoutX="222.0" layoutY="144.0" mnemonicParsing="false" onMouseClicked="#regButton" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #28262e; -fx-cursor: hand;" text="Ok" textFill="#fcfcfc" AnchorPane.rightAnchor="60.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+      <Button fx:id="topScoresButton" layoutX="105.0" layoutY="4.0" mnemonicParsing="false" onMouseClicked="#switchToTopScores" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #28269e; -fx-cursor: hand; -fx-border-color: #28252e; -fx-border-width: 4;" text="TopScores" textFill="WHITE" AnchorPane.bottomAnchor="500.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="400.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

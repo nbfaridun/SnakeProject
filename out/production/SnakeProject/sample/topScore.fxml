@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="394.0" style="-fx-background-color: #28252e;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.topScoreController">
+   <children>
+      <TableView fx:id="usersTable" layoutY="49.0" prefHeight="380.0" prefWidth="394.0" style="-fx-background-color: #28216f\;" AnchorPane.bottomAnchor="71.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="49.0">
+        <columns>
+          <TableColumn fx:id="col_name" prefWidth="197.0" text="Name" />
+          <TableColumn fx:id="col_score" minWidth="7.0" prefWidth="196.0" text="Score" />
+        </columns>
+      </TableView>
+      <Button fx:id="leaveButton" defaultButton="true" layoutX="160.0" layoutY="438.0" mnemonicParsing="false" onMouseClicked="#switchToSam" text="LEAVE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="160.0" style="-fx-alignment: center;" text="HIGH SCORES" textFill="WHITE" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
