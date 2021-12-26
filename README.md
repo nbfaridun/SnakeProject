@@ -53,4 +53,8 @@ go to -> [Database Control](http://localhost/phpmyadmin/index.php?route=/server/
 > (крик души)
 
 ### Application Screenshots
+![readme](https://github.com/nbfaridun/SnakeProject/blob/main/Screenshots/readme.png)
+![snakegame](https://github.com/nbfaridun/SnakeProject/blob/main/Screenshots/snakegame.png)
+![setscore](https://github.com/nbfaridun/SnakeProject/blob/main/Screenshots/setscore.png)
+![topscore](https://github.com/nbfaridun/SnakeProject/blob/main/Screenshots/topscore.png)
 
