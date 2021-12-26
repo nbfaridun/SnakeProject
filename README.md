@@ -7,29 +7,29 @@ The interesting key of the game is a set of best record. By each snake's grows, 
 ### Instalation
 
 
-## 1
+## First Step
 ```bash
 Install XAMPP -> Start XAMPP -> Start Apache and MySQL
 ```
-![alt text](https://github.com/nbfaridun/SnakeProject/blob/main/Screenshots/XAMPPStart.png)
+![XAMPPStart](https://github.com/nbfaridun/SnakeProject/blob/main/Screenshots/XAMPPStart.png)
 
 
 
-## 2
+## Second Step
 ```bash
 Install Inteliij IDEA -> DataBase -> Add DataBase - MySQL
 ```
-![alt text](https://github.com/nbfaridun/SnakeProject/blob/main/Screenshots/InteliijDB1.png)
+![InteliijDB1](https://github.com/nbfaridun/SnakeProject/blob/main/Screenshots/InteliijDB1.png)
 
 
 
-## 3
+## Third Step
 ```
 Enter Admin's [username and password] for your DatabaseServer
 ```
-![alt text](https://github.com/nbfaridun/SnakeProject/blob/main/Screenshots/InteliijDB2.png)
+![InteliijDB2](https://github.com/nbfaridun/SnakeProject/blob/main/Screenshots/InteliijDB2.png)
 
-## 4(Optional)
+## Optional Step
 
 go to -> [Database Control](http://localhost/phpmyadmin/index.php?route=/server/sql) -> paste [SQL Code](https://github.com/nbfaridun/SnakeProject/tree/main/sql)
 ## 
@@ -41,14 +41,16 @@ go to -> [Database Control](http://localhost/phpmyadmin/index.php?route=/server/
 ### Instruction
 - Control a snake with a keys `W A S D` | where `W` - UP, `A` - LEFT, `S` - DOWN, `D` - RIGHT.
 - Don't hit yourself!
-- Don't try to go out of the ground! 
+- Don't try to go out of the ground!
 
 ### Features
-- Full Snake Game
+- Full Snake Game(with a cheat option 'increasing the length')
 - Connection to DataBase
 - Score Saving(optional)
 - TopScorers List
 
 > MANY THANKS TO DATABASE && INTELIIJ DEVELOPERS, I SPENT 3 DAYS TO GET WHY I COULD'T CONNECT INTELIIJ TO DATABASE!!!!
 > (крик души)
+
+### Application Screenshots
 
